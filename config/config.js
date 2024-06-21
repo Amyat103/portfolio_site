@@ -1,169 +1,172 @@
-
 import profile from './profile.png';
-import { faAppStore, faGithub, faGooglePlay } from '@fortawesome/free-brands-svg-icons';
-import { } from '@fortawesome/free-solid-svg-icons';
+import {
+  faAppStore,
+  faGithub,
+  faGooglePlay,
+} from '@fortawesome/free-brands-svg-icons';
+import {} from '@fortawesome/free-solid-svg-icons';
+import web_icon from '../public/website_icon.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLink } from '@fortawesome/free-solid-svg-icons';
 
 export const navigation = {
-  name: "Hashir",
+  name: 'David',
   links: [
     {
-      title: "About",
-      link: "#about",
+      title: 'About',
+      link: '#about',
     },
     {
-      title: "Projects",
-      link: "#projects",
+      title: 'Projects',
+      link: '#projects',
     },
     {
-      title: "Contact",
-      link: "#contact",
+      title: 'Contact',
+      link: '#contact',
     },
     {
-      title: "Links",
-      link: "/links",
+      title: 'Links',
+      link: '/links',
     },
-    {
-      title: "Blog",
-      link: "https://medium.com/@hashirshoaeb",
-    }
   ],
-}
+};
 export const intro = {
-  title: "Hey, I'm Hashir",
-  description: "A Computer Engineer creating mobile apps and static websites.",
+  title: "Hey, I'm David",
+  description: 'A Software Engineer studying at Boston University.',
   image: profile.src,
   buttons: [
     {
-      title: "Contact Me",
-      link: "#contact",
+      title: 'Contact Me',
+      link: '#contact',
       isPrimary: true,
     },
     {
-      title: "Resume",
-      link: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+      title: 'Resume',
+      link: 'https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing',
       isPrimary: false,
     },
   ],
-}
+};
 
 export const about = {
-  title: "Who I am",
+  title: 'Who I am',
   description: [
-    "I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering. I kick started my professional career as a mobile application developer working remotely for a UK based startup — Lessgo.",
-    "The tech industry is ever-evolving and I love being able to grow with it, while continually solidifying the fundamentals. I opensource my code from a place of empathy - for future developers, teammates, users, and with accessibility in mind. I also love joining communities, helping and mentoring new developers, and supporting organizations to promote diversity in tech. I’m sharing my programming journey on instagram, helping people who are just getting into the space of programming.",
-    "When I’m not programming, I focus on my hobbies which are: diary writing, doodling, meeting people and growing my network.",
+    "I'm a junior at Boston University studying Computer Science.",
+    'When I’m not programming, I focus on my hobbies which are: tennis and movies',
   ],
-}
+};
 
 export const work = {
-  title: "What I do",
+  title: 'What I do',
   cards: [
     {
-      title: "Mobile App Development",
-      description: "I create pixel perfect iOS and Andriod apps using Flutter.",
+      title: 'Mobile App Development',
+      description: 'I create pixel perfect iOS and Andriod apps using Flutter.',
       icons: null,
     },
     {
-      title: "Web Development",
-      description: "I create responsive static websites using Reactjs.",
+      title: 'Web Development',
+      description: 'I create responsive static websites using Reactjs.',
       icons: null,
-    }
+    },
   ],
-}
+};
 
 export const projects = {
-  title: "Projects",
+  title: 'Projects',
   cards: [
     {
-      title: "StarBook",
-      description: "A digital diary and mood tracking app that helps you in keeping track of your mood and productivity throughout the month/year.",
+      title: 'PlateCritique',
+      description:
+        'A digital diary and mood tracking app that helps you in keeping track of your mood and productivity throughout the month/year.',
       icons: [
         {
-          icon: faAppStore,
-          link: "https://apps.apple.com/us/app/starbook-journal-ai-diary/id1552418289",
+          icon: faLink,
+          link: 'https://www.platecritique.com',
         },
         {
           icon: faGithub,
-          link: "https://github.com/hashirshoaeb/star_book",
+          link: 'https://github.com/hashirshoaeb/portfolio',
         },
-      ]
+      ],
     },
     {
-      title: "QuranTalk",
-      description: "An emotional well being and mental health app. The app helps people to navigate their emotions in the light of the Quran.",
-      icons: [
-        {
-          icon: faAppStore,
-          link: "https://apps.apple.com/us/app/qurantalk/id1563425149",
-        },
-        {
-          icon: faGooglePlay,
-          link: "https://play.google.com/store/apps/details?id=com.ayahemotion.quran_talk",
-        },
-      ]
-    },
-    {
-      title: "Portfolio",
-      description: "A portfolio website template that helps you showcase your work, projects and skills as a software developer or freelancer.",
+      title: 'Job Scraper',
+      description:
+        'A specialized program that scrapes indeed.com to streamline the search process and assist job seekers in job market',
       icons: [
         {
           icon: faGithub,
-          link: "https://github.com/hashirshoaeb/portfolio",
+          link: 'https://github.com/hashirshoaeb/portfolio',
         },
-      ]
+      ],
+    },
+    {
+      title: 'Portfolio',
+      description:
+        'A portfolio website template that helps you showcase your work, projects and skills as a software developer or freelancer.',
+      icons: [
+        {
+          icon: faGithub,
+          link: 'https://github.com/hashirshoaeb/portfolio',
+        },
+      ],
     },
   ],
-}
+};
 
 export const contact = {
-  title: "Get in touch",
-  description: "Coffee Chat! Please do not hesitate to schedule a meeting. Alternatively, feel free to reach out directly by email at hashirshoaeb@gmail.com.",
+  title: 'Get in touch',
+  description:
+    'Coffee Chat! Please do not hesitate to schedule a meeting. Alternatively, feel free to reach out directly by email at hashirshoaeb@gmail.com.',
   buttons: [
     {
-      title: "Email Me",
-      link: "mailto:hashirshoaeb@gmail.com",
+      title: 'Email Me',
+      link: 'mailto:hashirshoaeb@gmail.com',
       isPrimary: true,
     },
     {
-      title: "Schedule Meeting",
-      link: "https://topmate.io/hashirshoaeb",
+      title: 'Schedule Meeting',
+      link: 'https://topmate.io/hashirshoaeb',
       isPrimary: false,
     },
-  ]
-}
+  ],
+};
 
-// SEARCH ENGINE 
+// SEARCH ENGINE
 export const SEO = {
-  // 50 - 60 char  
-  title: "Hashir Shoaib | Computer Engineer | Flutter | Reactjs developer",
-  description: "I create mobile apps and static websites. I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering.",
+  // 50 - 60 char
+  title:
+    'David Myat | Computer Science Student | Software Engineer | Fullstack developer | Backend Developer',
+  description:
+    'I created backend projects and fullstack websites. I am studying computer science at Boston University.',
   image: profile.src,
-}
+};
 
 export const links = {
   image: profile.src,
-  title: "@hashirshoaeb",
-  description: "Computer Engineer | Flutter | Reactjs Developer",
+  title: '@hashirshoaeb',
+  description: 'Computer Engineer | Flutter | Reactjs Developer',
   cards: [
     {
-      title: "My website",
-      link: "https://hashirshoaeb.com/",
+      title: 'My website',
+      link: 'https://hashirshoaeb.com/',
     },
     {
-      title: "QuranTalk App",
-      link: "https://www.qurantalk.app/",
+      title: 'QuranTalk App',
+      link: 'https://www.qurantalk.app/',
     },
     {
-      title: "StarBook App",
-      link: "https://starbook.dev/",
+      title: 'StarBook App',
+      link: 'https://starbook.dev/',
     },
     {
-      title: "My GitHub",
-      link: "https://github.com/hashirshoaeb/",
+      title: 'My GitHub',
+      link: 'https://github.com/hashirshoaeb/',
     },
     {
-      title: "My LinkedIn",
-      link: "https://www.linkedin.com/in/hashirshoaeb/",
+      title: 'My LinkedIn',
+      link: 'https://www.linkedin.com/in/hashirshoaeb/',
     },
-  ]
-}
+  ],
+};
